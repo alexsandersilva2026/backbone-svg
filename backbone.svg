@@ -109,7 +109,7 @@
        <rect x="760" y="350" width="120" height="40" class="node-rect" />
        <text x="820" y="374" text-anchor="middle" class="node-text">VVA03</text>
 
-       <rect x="710" y="500" width="120" height="40" class="node-rect" />
+       <rect x="650" y="450" width="120" height="40" class="node-rect" />
        <text x="770" y="524" text-anchor="middle" class="node-text">SEA02</text>
 
        <rect x="560" y="650" width="120" height="40" class="node-rect" />
