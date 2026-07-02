@@ -100,7 +100,7 @@
        <rect x="440" y="480" width="120" height="40" class="node-rect" />
        <text x="500" y="504" text-anchor="middle" class="node-text">VTA01</text>
 
-       <rect x="700" y="40" width="120" height="40" class="node-rect" />
+       <rect x="720" y="40" width="120" height="40" class="node-rect" />
        <text x="780" y="64" text-anchor="middle" class="node-text">VVA01</text>
 
        <rect x="1060" y="400" width="120" height="40" class="node-rect" />
