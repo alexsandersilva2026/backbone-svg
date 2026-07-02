@@ -63,33 +63,33 @@
 
    <g id="nodes">
        <rect x="60" y="300" width="120" height="40" class="node-rect" />
-       <text x="120" y="324" text-anchor="middle" class="node-text">VILANOVA</text>
+       <text x="120" y="324" text-anchor="middle" class="node-text">SEA03</text>
 
        <rect x="310" y="200" width="120" height="40" class="node-rect" />
-       <text x="370" y="224" text-anchor="middle" class="node-text">CAMBURI</text>
+       <text x="370" y="224" text-anchor="middle" class="node-text">VTA02</text>
 
        <rect x="610" y="150" width="120" height="40" class="node-rect" />
-       <text x="670" y="174" text-anchor="middle" class="node-text">WOLTHER</text>
+       <text x="670" y="174" text-anchor="middle" class="node-text">VVA01</text>
 
        <rect x="910" y="220" width="120" height="40" class="node-rect" />
-       <text x="970" y="244" text-anchor="middle" class="node-text">LAUSANNE</text>
+       <text x="970" y="244" text-anchor="middle" class="node-text">SEA05</text>
 
        <rect x="160" y="500" width="120" height="40" class="node-rect" />
-       <text x="220" y="524" text-anchor="middle" class="node-text">INTERVIP</text>
+       <text x="220" y="524" text-anchor="middle" class="node-text">SEA01</text>
 
        <rect x="360" y="300" width="120" height="40" class="node-rect" />
-       <text x="420" y="324" text-anchor="middle" class="node-text">SERRA</text>
+       <text x="420" y="324" text-anchor="middle" class="node-text">SEA04</text>
 
        <rect x="460" y="400" width="120" height="40" class="node-rect" />
-       <text x="520" y="424" text-anchor="middle" class="node-text">NEWPORT</text>
+       <text x="520" y="424" text-anchor="middle" class="node-text">VTA01</text>
 
        <rect x="760" y="350" width="120" height="40" class="node-rect" />
-       <text x="820" y="374" text-anchor="middle" class="node-text">ARIBIRI</text>
+       <text x="820" y="374" text-anchor="middle" class="node-text">VVA03</text>
 
        <rect x="710" y="500" width="120" height="40" class="node-rect" />
-       <text x="770" y="524" text-anchor="middle" class="node-text">VITÓRIA</text>
+       <text x="770" y="524" text-anchor="middle" class="node-text">SEA02</text>
 
        <rect x="560" y="650" width="120" height="40" class="node-rect" />
-       <text x="620" y="674" text-anchor="middle" class="node-text">VCOB</text>
+       <text x="620" y="674" text-anchor="middle" class="node-text">CCA01</text>
    </g>
 </svg>
