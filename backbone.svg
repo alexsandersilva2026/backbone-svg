@@ -1,0 +1,95 @@
+<svg id="topology-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" class="absolute inset-0 w-full h-full" style="z-index:0; background-color: #1a2332;">
+   <defs>
+    <filter id="glow">
+     <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
+     <feMerge>
+      <feMergeNode in="blur"></feMergeNode>
+      <feMergeNode in="SourceGraphic"></feMergeNode>
+     </feMerge>
+    </filter>
+    <style>
+        .glow-line { stroke: #0f6; stroke-width: 2; filter: url(#glow); opacity: 0.6; }
+        .particle { fill: #0f6; filter: url(#glow); }
+        .node-text { fill: #ffffff; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: bold; }
+        .node-rect { fill: #101622; stroke: #0f6; stroke-width: 1.5; filter: url(#glow); rx: 4px; }
+    </style>
+   </defs> 
+
+   <g id="lines">
+       <path d="M120,320 Q220,220 370,220" fill="none" class="glow-line" id="path-0"></path>
+       <path d="M370,220 Q520,150 670,170" fill="none" class="glow-line" id="path-1"></path>
+       <path d="M670,170 Q820,160 970,240" fill="none" class="glow-line" id="path-2"></path>
+       
+       <path d="M120,320 Q140,430 220,520" fill="none" class="glow-line" id="path-3"></path>
+       <path d="M220,520 Q370,490 520,420" fill="none" class="glow-line" id="path-4"></path>
+       <path d="M370,220 Q410,260 420,320" fill="none" class="glow-line" id="path-5"></path>
+       
+       <path d="M420,320 Q470,370 520,420" fill="none" class="glow-line" id="path-6"></path>
+       <path d="M520,420 Q580,280 670,170" fill="none" class="glow-line" id="path-7"></path>
+       <path d="M670,170 Q760,250 820,370" fill="none" class="glow-line" id="path-8"></path>
+       <path d="M820,370 Q910,290 970,240" fill="none" class="glow-line" id="path-9"></path>
+       
+       <path d="M520,420 Q540,550 620,670" fill="none" class="glow-line" id="path-10"></path>
+       <path d="M220,520 Q400,630 620,670" fill="none" class="glow-line" id="path-11"></path>
+       <path d="M620,670 Q710,610 770,520" fill="none" class="glow-line" id="path-12"></path>
+       <path d="M770,520 Q810,440 820,370" fill="none" class="glow-line" id="path-13"></path>
+       <path d="M820,370 Q720,500 620,670" fill="none" class="glow-line" id="path-14"></path>
+       <path d="M970,240 Q900,400 770,520" fill="none" class="glow-line" id="path-15"></path>
+   </g> 
+
+   <g id="particles">
+       <circle r="4" class="particle"><animateMotion dur="2.2s" repeatCount="indefinite" path="M120,320 Q220,220 370,220"></animateMotion></circle>
+       <circle r="3" class="particle" style="opacity: 0.4;"><animateMotion dur="4.2s" repeatCount="indefinite" path="M120,320 Q220,220 370,220" begin="0.7s"></animateMotion></circle>
+       <circle r="4" class="particle"><animateMotion dur="2.5s" repeatCount="indefinite" path="M370,220 Q520,150 670,170"></animateMotion></circle>
+       <circle r="3" class="particle" style="opacity: 0.4;"><animateMotion dur="3.8s" repeatCount="indefinite" path="M370,220 Q520,150 670,170" begin="0.5s"></animateMotion></circle>
+       <circle r="4" class="particle"><animateMotion dur="2.1s" repeatCount="indefinite" path="M670,170 Q820,160 970,240"></animateMotion></circle>
+       <circle r="3" class="particle" style="opacity: 0.4;"><animateMotion dur="3.1s" repeatCount="indefinite" path="M670,170 Q820,160 970,240" begin="0.8s"></animateMotion></circle>
+       <circle r="4" class="particle"><animateMotion dur="3.2s" repeatCount="indefinite" path="M120,320 Q140,430 220,520"></animateMotion></circle>
+       <circle r="3" class="particle" style="opacity: 0.4;"><animateMotion dur="4.8s" repeatCount="indefinite" path="M120,320 Q140,430 220,520" begin="1.2s"></animateMotion></circle>
+       <circle r="4" class="particle"><animateMotion dur="2.8s" repeatCount="indefinite" path="M220,520 Q370,490 520,420"></animateMotion></circle>
+       <circle r="3" class="particle" style="opacity: 0.4;"><animateMotion dur="4.0s" repeatCount="indefinite" path="M220,520 Q370,490 520,420" begin="0.4s"></animateMotion></circle>
+       <circle r="4" class="particle"><animateMotion dur="1.9s" repeatCount="indefinite" path="M370,220 Q410,260 420,320"></animateMotion></circle>
+       <circle r="4" class="particle"><animateMotion dur="2.4s" repeatCount="indefinite" path="M420,320 Q470,370 520,420"></animateMotion></circle>
+       <circle r="4" class="particle"><animateMotion dur="3.0s" repeatCount="indefinite" path="M520,420 Q580,280 670,170"></animateMotion></circle>
+       <circle r="4" class="particle"><animateMotion dur="2.6s" repeatCount="indefinite" path="M670,170 Q760,250 820,370"></animateMotion></circle>
+       <circle r="4" class="particle"><animateMotion dur="2.3s" repeatCount="indefinite" path="M820,370 Q910,290 970,240"></animateMotion></circle>
+       <circle r="4" class="particle"><animateMotion dur="3.5s" repeatCount="indefinite" path="M520,420 Q540,550 620,670"></animateMotion></circle>
+       <circle r="4" class="particle"><animateMotion dur="3.3s" repeatCount="indefinite" path="M220,520 Q400,630 620,670"></animateMotion></circle>
+       <circle r="4" class="particle"><animateMotion dur="2.7s" repeatCount="indefinite" path="M620,670 Q710,610 770,520"></animateMotion></circle>
+       <circle r="4" class="particle"><animateMotion dur="2.1s" repeatCount="indefinite" path="M770,520 Q810,440 820,370"></animateMotion></circle>
+       <circle r="4" class="particle"><animateMotion dur="3.4s" repeatCount="indefinite" path="M820,370 Q720,500 620,670"></animateMotion></circle>
+       <circle r="4" class="particle"><animateMotion dur="3.1s" repeatCount="indefinite" path="M970,240 Q900,400 770,520"></animateMotion></circle>
+   </g>
+
+   <g id="nodes">
+       <rect x="60" y="300" width="120" height="40" class="node-rect" />
+       <text x="120" y="324" text-anchor="middle" class="node-text">VILANOVA</text>
+
+       <rect x="310" y="200" width="120" height="40" class="node-rect" />
+       <text x="370" y="224" text-anchor="middle" class="node-text">CAMBURI</text>
+
+       <rect x="610" y="150" width="120" height="40" class="node-rect" />
+       <text x="670" y="174" text-anchor="middle" class="node-text">WOLTHER</text>
+
+       <rect x="910" y="220" width="120" height="40" class="node-rect" />
+       <text x="970" y="244" text-anchor="middle" class="node-text">LAUSANNE</text>
+
+       <rect x="160" y="500" width="120" height="40" class="node-rect" />
+       <text x="220" y="524" text-anchor="middle" class="node-text">INTERVIP</text>
+
+       <rect x="360" y="300" width="120" height="40" class="node-rect" />
+       <text x="420" y="324" text-anchor="middle" class="node-text">SERRA</text>
+
+       <rect x="460" y="400" width="120" height="40" class="node-rect" />
+       <text x="520" y="424" text-anchor="middle" class="node-text">NEWPORT</text>
+
+       <rect x="760" y="350" width="120" height="40" class="node-rect" />
+       <text x="820" y="374" text-anchor="middle" class="node-text">ARIBIRI</text>
+
+       <rect x="710" y="500" width="120" height="40" class="node-rect" />
+       <text x="770" y="524" text-anchor="middle" class="node-text">VITÓRIA</text>
+
+       <rect x="560" y="650" width="120" height="40" class="node-rect" />
+       <text x="620" y="674" text-anchor="middle" class="node-text">VCOB</text>
+   </g>
+</svg>
