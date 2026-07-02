@@ -85,8 +85,8 @@
    </g>
 
    <g id="nodes">
-       <rect x="10" y="220" width="120" height="40" class="node-rect" />
-       <text x="70" y="244" text-anchor="middle" class="node-text">SEA03</text>
+       <rect x="5" y="220" width="120" height="40" class="node-rect" />
+       <text x="65" y="244" text-anchor="middle" class="node-text">SEA03</text>
 
        <rect x="60" y="660" width="120" height="40" class="node-rect" />
        <text x="120" y="684" text-anchor="middle" class="node-text">SEA01</text>
